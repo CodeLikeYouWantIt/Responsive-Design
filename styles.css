@@ -13,14 +13,13 @@ for 16 grid system the formula will be
 (c * 40) + ((c-1)*20)
 */
 
-body{
-  margin:0 auto;
-
-}
-
 div{
   background-color: lightpink;
+  margin: auto;
+}
 
+span{
+  color:black;
 }
 
 .col-12{
