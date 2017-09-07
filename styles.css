@@ -1,23 +1,5 @@
-/* number of columns = c
-
-in a 12 grid system the width is found by
-(c * 60) + ((c-1)*20)
-
-Example:
-
-5 columns
-
-(5 * 60) + ((5-1)*20) = 380 px
-________________________________________________________
-for 16 grid system the formula will be
-(c * 40) + ((c-1)*20)
-*/
-* {
-  /*border:1px solid red;*/
-}
-
-.border{
-  border:1px solid red;
+.border {
+  border: 1px solid red;
 }
 
 .nav ul {
@@ -30,7 +12,7 @@ for 16 grid system the formula will be
 }
 
 .nav li {
-  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1em;
   line-height: 40px;
   height: 40px;
@@ -41,7 +23,7 @@ for 16 grid system the formula will be
   text-decoration: none;
   color: #fff;
   display: block;
-  transition: .3s background-color;
+  transition: 0.3s background-color;
 }
 
 .nav a:hover {
@@ -70,17 +52,15 @@ for 16 grid system the formula will be
   }
 }
 
-
-.header img{
-  height:500px;
-  width:100%;
+.header img {
+  height: 500px;
+  width: 100%;
   opacity: 0.8;
 }
 
 .container {
   position: relative;
 }
-
 
 .text {
   color: white;
@@ -106,83 +86,25 @@ for 16 grid system the formula will be
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
-.container .npy{
-  filter: blur(30px)
+.container .npy {
+  filter: blur(30px);
 }
 
 .container h2 {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
 }
 
-.container .finished:hover{
+.container .finished:hover {
   /*opacity: 0.8;*/
   filter: blur(5px);
 }
-
-.grid p{
-  color:white;
-  font-size: 1.4em;
-}
-
-.grid div {
-  background-color: #49C6D8;
-  margin: auto;
-}
-
-span{
-  color:black;
-}
-.col-12{
-  width:97.9166%; /*     (940/960) x 100     */
-}
-
-.col-11{
-  width:89.5833%; /*     (840/960) x 100     */
-}
-
-.col-10{
-  width:81.25%; /*       (780/960) x 100     */
-}
-
-.col-9{
-  width:72.9166%; /*     (700/960) x 100     */
-}
-
-.col-8{
-  width:64.5833%; /*     (620/960) x 100     */
-}
-
-.col-7{
-  width:56.25%; /*       (540/960) x 100     */
-}
-
-.col-6{
-  width:47.9166%; /*     (460/960) x 100     */
-}
-
-.col-5{
-  width:39.5833%; /*     (380/960) x 100     */
-}
-
-.col-4{
-  width:31.25%; /*     (300/960) x 100     */
-}
-
-.col-3{
-  width:22.9166%; /*     (220/960) x 100     */
-}
-
-.col-2{
-  width:14.5833%; /*     (140/960) x 100     */
-}
-
-.col-1{
-  width:6.25%; /*     (60/960) x 100     */
+span {
+  color: black;
 }
