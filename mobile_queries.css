@@ -1,1 +1,17 @@
+@media (max-width: 1004px) {
+  .quote {
+    top: 40px;
+  }
+  .col-8 {
+    width: 89.5833%;
+  }
+}
 
+@media (max-width: 703px) {
+  .quote {
+    top: 16px;
+  }
+  .col-8 {
+    width: 97.9166%;
+  }
+}
