@@ -4,7 +4,7 @@
 
 body {
   background-image: url('./Images/mountains2.jpg');
-  background-repeat: none;
+  /*background-repeat: none;*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -51,14 +51,14 @@ header {
   font-size: 3.5em;
 }
 
-img {
+.landing-img-container img {
   width: 100%;
   height: 650px;
   opacity: 0.95;
 }
 
 .test {
-  position: fixed;
+  height: 500px;
 }
 
 .main-content {
@@ -70,7 +70,45 @@ img {
   overflow: hidden;
 }
 
+.portfolio-container {
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  top: 5em;
+}
+.right {
+  position: absolute;
+  right: 0;
+  top: 5em;
+}
+hr {
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+  margin: 1.25rem 0 1.1875rem;
+}
+
+.portfolio-content {
+  background-color: #fff;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.portfolio {
+  position: relative;
+  top: 2px;
+  margin: 0 auto;
+}
 .quote {
+  border: 1px solid white;
   position: relative;
   top: 60px;
   margin: 0 auto;

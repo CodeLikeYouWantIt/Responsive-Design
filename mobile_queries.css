@@ -2,7 +2,7 @@
   .quote {
     top: 40px;
   }
-  .col-8 {
+  .main-content .col-8 {
     width: 89.5833%;
   }
 }
@@ -11,7 +11,33 @@
   .quote {
     top: 16px;
   }
-  .col-8 {
+  .main-content .col-8 {
     width: 97.9166%;
+  }
+}
+
+@media (max-width: 948px) {
+  .portfolio-container .col-6 {
+    width: 56.25%;
+  }
+}
+@media (max-width: 807px) {
+  .portfolio-container .col-6 {
+    width: 64.5833%;
+  }
+}
+@media (max-width: 507px) {
+  .portfolio-container .col-6 {
+    width: 72.9166%;
+  }
+}
+@media (max-width: 449px) {
+  .portfolio-container .col-6 {
+    width: 81.25%;
+  }
+}
+@media (max-width: 403px) {
+  .portfolio-container .col-6 {
+    width: 89.5833%;
   }
 }
