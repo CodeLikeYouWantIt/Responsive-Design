@@ -1,0 +1,12 @@
+.banner {
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*The Slides*/
+}
+
+.ban-1 {
+  height: 100vh;
+}
