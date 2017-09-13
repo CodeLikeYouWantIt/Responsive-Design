@@ -4,7 +4,6 @@
 .banner:nth-child(1) {
   background-image: url(../../../Desktop/Images/worship/armsout.jpg);
   background-size: cover;
-  background-position: 0 -200px;
 }
 .banner:nth-child(2) {
   background-image: url(../../../Desktop/Images/worship/guitar.jpg);
@@ -74,9 +73,43 @@ h1 {
 }
 
 footer {
-  height: 200px;
+  height: 80px;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/*.col-10 {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+*/
+
+.vid-container {
+  position: relative;
+  padding-bottom: 50.8125%;
+}
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.background-container {
+  position: relative;
+  height: 0;
+  background-image: url(./Images/bulb.jpg);
+  background-attachment: fixed;
+  padding-bottom: 25%;
+  background-size: cover;
+}
+/*.background-container .element {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}*/
